@@ -1,7 +1,5 @@
 ﻿namespace Assignments_2._2
 {
-    using System;
-
     abstract class Shape
     {
         public int Id { get; set; }
@@ -33,7 +31,7 @@
 
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
             Console.WriteLine("Select a shape to calculate area:");
             Console.WriteLine("1. Circle");
